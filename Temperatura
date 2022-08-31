@@ -1,0 +1,20 @@
+package fundamentos;
+
+public class temperatura {
+	public static void main(String[] args) {
+		
+		final double x = 5.0 / 9.0;
+		final double y = 32;
+		
+		double fahrenheit = 86;
+		double celsius = (fahrenheit - y) * x; 
+		
+		System.out.println("Resultado:" + celsius);
+		
+		fahrenheit = 150;
+		celsius= (fahrenheit - y) * x;
+		
+		System.out.println("Resultado:" + celsius);
+	}
+
+}
