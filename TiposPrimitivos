@@ -20,12 +20,6 @@ public class TiposPrimitivos {
 		char status = 'A'; // Ativo
 		
 		//Dias de empresa
-		System.out.println(anosDeEmpresa * 365);
-		
-		// Numero de viagens
-		System.out.println(numeroDeVoos / 2);
-		
-		//Dias de empresa
 		System.out.println("Anos de empresa: " + anosDeEmpresa * 365);
 		
 		// Numero de viagens
@@ -37,6 +31,11 @@ public class TiposPrimitivos {
 		System.out.println("O funcionario de id: "+ id + ": ganha -> " + salario);
 		System.out.println("Ferias? " + estaDeFerias);
 		System.out.println("Status: " + status);
+		
+}
+
+}
+
 		
 }
 
