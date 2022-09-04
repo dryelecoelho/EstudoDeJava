@@ -1,0 +1,29 @@
+package fudamentos;
+
+public class Notacão {
+	
+	public static void main(String[] args) {
+	
+	double a = 2.3;
+	String s = "Hello, bby";
+	s = s.replaceFirst("bby", "Sr");
+	s = s.toUpperCase();
+	s = s.concat("!!!");
+	
+	System.out.println(s);
+	
+	String x = "Dry"
+			.toUpperCase();
+	System.out.println(x);
+	
+	String y = "Seja bem vindo, x"
+			.replaceFirst("x", "Sr ou Sra")
+			.toUpperCase()
+			.concat("!!!");
+			
+	System.out.println(y);
+	
+	// Tipos primitivos nao tem operador "."
+	
+	}
+}
