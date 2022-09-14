@@ -29,6 +29,7 @@ public class TipoString {
 	String frase = String.format("\nA senhora %s %s tem %d anos e ganha R$%.2f", 
 	nome, sobrenome, idade, salario);
 	System.out.println(frase);
+	
 	}
 
 }
